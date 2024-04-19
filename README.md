@@ -4,7 +4,8 @@ This is a bot designed to automate the reservation process for the Pokemon Cafe 
 
 ## Overview
 
-The Pokemon Cafe Bot is built using Puppeteer, a Node library which provides a high-level API to control headless Chrome or Chromium. It automates the process of navigating to the Pokemon Cafe reservation page, selecting the number of guests, choosing a date and time slot, and making the reservation.
+The Pokemon Cafe Bot is built using Puppeteer, a Node library which provides a high-level API to control headless Chrome or Chromium. It automates the process of navigating to the Pokemon Cafe reservation page, selecting the number of guests, choosing a date and time slot, and getting to the last step of the reservation.
+
 
 ## Installation
 
@@ -13,6 +14,7 @@ To use the Pokemon Cafe Bot, you'll need to have Node.js installed on your syste
 ```bash
 npm install
 ```
+PS: Please check the .nvmrc file to see the recommended node version
 
 ## Configuration
 Before running the bot, make sure to configure the options in the index.ts file:
@@ -34,7 +36,7 @@ To start the bot, run the following command
 ```bash
 npm start
 ```
-The bot will launch a headless browser and begin the reservation process. Follow the instructions in the console to complete the reservation.
+The bot will launch a browser and begin the reservation process. If there's a reservation available, the bot will open a youtube video so you can complete the reservation
 
 ## Contributing
 
