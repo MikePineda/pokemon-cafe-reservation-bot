@@ -39,5 +39,3 @@ try{
 } catch (error) {
     console.error("Error scheduling script: ", error);
 }
-
-findAndReservePokemonCafe(pokemonCafeOptions);
